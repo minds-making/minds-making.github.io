@@ -18,14 +18,14 @@ const People: React.FC = () => {
   return (
     <div
       style={{
-        fontFamily: "'Roboto Mono', monospace",
+        fontFamily: "Georgia, serif",
       }}
-      className="mx-auto flex flex-col space-y-6"
+      className="mx-auto flex flex-col space-y-6 text-[#740000]"
     >
       
       <div>
         <h2 className="text-4xl mb-2">session #1: creativity</h2>
-        <div className="outline rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {creativitySpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
@@ -33,7 +33,7 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">session #2: problem solving</h2>
-        <div className="outline rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {problemSolvingSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
@@ -41,7 +41,7 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">session #3: communication</h2>
-        <div className="outline rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {communicationSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}

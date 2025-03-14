@@ -35,15 +35,15 @@ const Home: React.FC<{}> = () => {
         </div>
       </div>
       <div
-        style={{ backgroundColor: "#a4bdc2" }}
+        style={{ backgroundColor: "#FDEECA" }}
         className="flex flex-col -mt-32 pb-32"
       >
         <div
           style={{
-            backgroundColor: "#a4bdc2",
-            fontFamily: "'Roboto Mono', monospace",
+            // backgroundColor: "#ffe1a8",
+            fontFamily: "Georgia, serif",
           }}
-          className="text-2xl mx-4 md:mx-24"
+          className="text-2xl mx-4 md:mx-24 text-[#740000]"
         >
           Project Nightingale is a multidisciplinary effort to advance the
           science of how people learn to reason about data. Our work aims to
