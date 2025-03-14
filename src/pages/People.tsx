@@ -4,6 +4,7 @@ import creativitySpeakers from "../json/creativitySpeakers.json"
 import problemSolvingSpeakers from "../json/problemSolvingSpeakers.json"
 import learningSpeakers from "../json/learningSpeakers.json"
 import researchTeam from "../json/researchTeam.json"
+import cogsciSpeakers from "../json/cogsciSpeakers.json"
 
 interface Person {
   id: number;
@@ -49,8 +50,17 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">session #4: learning</h2>
-        <div className="outline rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {learningSpeakers.map((person, idx) => (
+            <PersonPortrait person={{...person, id: idx + 100}} />
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-4xl mb-2">in-person workshop @ cogsci 2025</h2>
+        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {cogsciSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
         </div>
@@ -58,8 +68,8 @@ const People: React.FC = () => {
       
 
       <div className="">
-        <h2 className="text-4xl mb-2">research team</h2>
-        <div className="outline rounded-lg mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <h2 className="text-4xl mb-2">organizers</h2>
+        <div className=" rounded-lg mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {researchTeam.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 200}} />
           ))}
