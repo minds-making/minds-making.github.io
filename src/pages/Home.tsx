@@ -16,9 +16,7 @@ const Home: React.FC<{}> = () => {
         className="min-h-screen bg-[url('/background.svg')] bg-cover bg-center flex flex-col"
       >
         <div className="flex flex-col-reverse md:flex-row mt-16">
-          <div className="w-72 h-72 ">
-
-          </div>
+          <div className="w-72 h-72 "></div>
           <div className="flex flex-col ml-12">
             <div className="text-5xl">Minds in the Making</div>
             <div className="text-3xl mt-6">
@@ -45,10 +43,22 @@ const Home: React.FC<{}> = () => {
           }}
           className="text-2xl mx-4 md:mx-24 text-[#740000]"
         >
-          Project Nightingale is a multidisciplinary effort to advance the
-          science of how people learn to reason about data. Our work aims to
-          develop psychological theories that explain how learning takes place
-          in authentic educational environments.
+          Minds in the Making is a new workshop at the interface between
+          cognitive science 🧠 and design thinking 🫖. The human capacity to
+          shape our environments and experiences has long inspired research
+          across many disciplines, from psychology and neuroscience to
+          human-computer interaction and education. However, these communities
+          have not generally had the opportunity to exchange insights. Our
+          workshop aims to bridge this gap, fostering interdisciplinary
+          knowledge sharing to deepen our understanding of human creativity and
+          design cognition. We focus on two central questions about design
+          cognition: How do people reason about design decisions? How does
+          design impact human behavior and learning? (For more information, read
+          our workshop proposal here.) Format In 2025, Minds in the Making will
+          take place as a series of four virtual online seminars — free & open
+          to the public — featuring interactive conversations with experts from
+          cognitive science, education, design, human-computer interaction.
+          We’re also planning for in-person activities (details tbd).
         </div>
         <div id="team" className="mt-24 mx-4 md:mx-24">
           <People />
@@ -63,7 +73,5 @@ const Home: React.FC<{}> = () => {
     </>
   );
 };
-
-
 
 export default Home;
