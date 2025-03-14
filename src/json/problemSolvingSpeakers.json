@@ -1,20 +1,20 @@
 [
     {
-      "name": "Junyi Chu",
-      "affiliation": "Stanford University",
-      "website": "https://jchu10.github.io/",
-      "imageUrl": "/people/chuJ.png"
+      "name": "Kelsey Allen",
+      "affiliation": "DeepMind",
+      "website": "https://k-r-allen.github.io/",
+      "imageUrl": "/people/allenK.jpg"
     },
     {
-      "name": "Junyi Chu",
-      "affiliation": "Stanford University",
-      "website": "https://jchu10.github.io/",
-      "imageUrl": "/people/chuJ.png"
+      "name": "Bonan Zhao",
+      "affiliation": "University of Edinburgh",
+      "website": "https://zhaobn.github.io/",
+      "imageUrl": "/people/zhaoB.jpg"
     },
     {
-      "name": "Junyi Chu",
-      "affiliation": "Stanford University",
-      "website": "https://jchu10.github.io/",
-      "imageUrl": "/people/chuJ.png"
+      "name": "Ranjay Krishna",
+      "affiliation": "University of Washington",
+      "website": "https://www.ranjaykrishna.com/index.html",
+      "imageUrl": "/people/krishnaR.jpg"
     }
 ]
