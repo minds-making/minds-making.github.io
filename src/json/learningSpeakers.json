@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Yasmin B. Kafai",
+      "affiliation": "University of Pennsylvania",
+      "website": "https://www.yasminkafai.com/",
+      "imageUrl": "/people/kafaiY.jpg"
+    },
+    {
+      "name": "Vanessa N. Bermudez",
+      "affiliation": "UC Irvine",
+      "website": "https://education.uci.edu/phd-bermudez-v.html",
+      "imageUrl": "/people/bermudezV.jpg"
+    },
+    {
+      "name": "Julian Togelius",
+      "affiliation": "New York University",
+      "website": "http://julian.togelius.com/",
+      "imageUrl": "/people/togeliusJ.jpg"
+    }
+]

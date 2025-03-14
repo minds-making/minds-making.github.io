@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 const sections = [
   { label: "home", uri: "/" },
-  { label: "team", uri: "/team" },
   { label: "schedule", uri: "/schedule" },
+  { label: "team", uri: "/team" },
 ];
 
 const Header = () => {
@@ -52,7 +52,7 @@ const Header = () => {
         style={{ fontFamily: "'Roboto Mono', monospace", height: "64px" }}
         className={
           "w-full text-xl flex justify-between transition-all duration-300 " +
-          (isHeaderFixed ? "fixed top-0 left-0 z-50 bg-white shadow-md" : "")
+          (isHeaderFixed ? "fixed top-0 left-0 z-50 shadow-md" : "")
         }
       >
         {isHeaderFixed ? (

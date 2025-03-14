@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Arvind Satyanarayan",
+    "affiliation": "MIT",
+    "imageUrl": "/people/satyanarayanA.jpg",
+    "website": "https://arvindsatya.com/"
+  },
+  {
+    "name": "Julian Jara-Ettinger",
+    "affiliation": "Yale University",
+    "website": "https://compdevlab.yale.edu/team.html",
+    "imageUrl": "/people/jaraEttingerJ.jpg"
+  },
+  {
+    "name": "Junyi Chu",
+    "affiliation": "Stanford University",
+    "website": "https://jchu10.github.io/",
+    "imageUrl": "/people/chuJ.png"
+  }
+]

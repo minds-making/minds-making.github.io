@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Aaron Hertzmann",
+      "affiliation": "Adobe Research",
+      "website": "https://www.dgp.toronto.edu/~hertzman/",
+      "imageUrl": "/people/hertzmannA.jpg"
+    },
+    {
+      "name": "Manish Saggar",
+      "affiliation": "Stanford University",
+      "website": "https://braindynamicslab.github.io/team/manish-saggar/",
+      "imageUrl": "/people/saggarM.jpg"
+    },
+    {
+      "name": "Junyi Chu",
+      "affiliation": "Stanford University",
+      "website": "https://jchu10.github.io/",
+      "imageUrl": "/people/chuJ.png"
+    }
+]

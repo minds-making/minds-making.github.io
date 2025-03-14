@@ -2,20 +2,26 @@
   {
     "name": "Junyi Chu",
     "affiliation": "Stanford University",
-    "website": "https://cogtoolslab.github.io/people.html",
-    "imageUrl": "/people/fanJE.jpg"
-  },
-  {
-    "name": "Guy Davidson",
-    "affiliation": "New York University",
-    "website": "https://www.coalas-lab.com/elisakreiss",
-    "imageUrl": "/people/kreissE.png"
+    "website": "https://jchu10.github.io/",
+    "imageUrl": "/people/chuJ.png"
   },
   {
     "name": "Arnav Verma",
     "affiliation": "Stanford University",
-    "website": "https://www.lacepadilla.com/",
-    "imageUrl": "/people/padillaL.jpg"
+    "website": "https://www.arnavverma.com/",
+    "imageUrl": "/people/vermaA.jpg"
+  },
+  {
+    "name": "Guy Davidson",
+    "affiliation": "New York University",
+    "website": "https://guydavidson.me/",
+    "imageUrl": "/people/davidsonG.jpg"
+  },
+  {
+    "name": "Robbie Fraser",
+    "affiliation": "Stanford University",
+    "website": "https://uk.linkedin.com/in/robbie-fraser-92b532140",
+    "imageUrl": "/people/fraserR.jpg"
   },
   {
     "name": "Judy Fan",
