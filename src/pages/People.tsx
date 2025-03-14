@@ -4,7 +4,6 @@ import creativitySpeakers from "../json/creativitySpeakers.json"
 import problemSolvingSpeakers from "../json/problemSolvingSpeakers.json"
 import learningSpeakers from "../json/learningSpeakers.json"
 import researchTeam from "../json/researchTeam.json"
-import advisoryBoard from "../json/advisoryBoard.json"
 
 interface Person {
   id: number;
