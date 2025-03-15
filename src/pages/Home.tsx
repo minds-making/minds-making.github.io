@@ -41,7 +41,7 @@ const Home: React.FC<{}> = () => {
             // backgroundColor: "#ffe1a8",
             fontFamily: "Georgia, serif",
           }}
-          className="text-2xl mx-4 md:mx-24 text-[#740000]"
+          className="text-lg mx-4 md:mx-24 text-[#740000]"
         >
           Minds in the Making is a new workshop at the interface between
           cognitive science 🧠 and design thinking 🫖. The human capacity to
@@ -51,14 +51,23 @@ const Home: React.FC<{}> = () => {
           have not generally had the opportunity to exchange insights. Our
           workshop aims to bridge this gap, fostering interdisciplinary
           knowledge sharing to deepen our understanding of human creativity and
-          design cognition. We focus on two central questions about design
-          cognition: How do people reason about design decisions? How does
-          design impact human behavior and learning? (For more information, read
-          our workshop proposal here.) Format In 2025, Minds in the Making will
-          take place as a series of four virtual online seminars — free & open
-          to the public — featuring interactive conversations with experts from
-          cognitive science, education, design, human-computer interaction.
-          We’re also planning for in-person activities (details tbd).
+          design cognition.
+          <div className="my-4">
+            We focus on two central questions about design cognition: <br />
+            <span className="ml-12">
+              1. How do people reason about design decisions?
+            </span>
+            <br />
+            <span className="ml-12">
+              2. How does design impact human behavior and learning?
+            </span>
+          </div>
+          For more information, read our workshop proposal <a href="https://google.com" className="underline text-red-700">here</a>. <br /> Format In
+          2025, Minds in the Making will take place as a series of four virtual
+          online seminars — free & open to the public — featuring interactive
+          conversations with experts from cognitive science, education, design,
+          human-computer interaction. We’re also planning for in-person
+          activities (details tbd).
         </div>
         <div id="team" className="mt-24 mx-4 md:mx-24">
           <People />
