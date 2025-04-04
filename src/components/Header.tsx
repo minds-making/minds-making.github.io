@@ -44,26 +44,26 @@ const Header = () => {
     <div>
       {isHeaderFixed && (
         <div
-          style={{ fontFamily: "'Roboto Mono', monospace", height: "64px" }}
+          style={{ height: "64px" }}
           className="w-full"
         />
       )}
       <div
-        style={{ fontFamily: "'Roboto Mono', monospace", height: "64px" }}
+        style={{ fontFamily: "Georgia, serif", height: "64px" }}
         className={
-          "w-full text-xl flex justify-between transition-all duration-300 " +
+          "bg-[#f0ca89] w-full text-xl flex justify-between transition-all duration-300 " +
           (isHeaderFixed ? "fixed top-0 left-0 z-50 shadow-md" : "")
         }
       >
         {isHeaderFixed ? (
           <div className="my-auto mx-20 hidden md:flex">
-            <img
-              src="/Untitled_Artwork_7.png"
+            {/* <img
+              src="/logo.png"
               className="h-16"
-            />
-            <span className="mx-2 text-center my-auto text-2xl text-black">
+            /> */}
+            <span className="mx-2 text-center my-auto text-2xl ">
               {" "}
-              Minds in the Making{" "}
+              <b>m</b>inds in the <b>m</b>aking{" "}
             </span>
           </div>
         ) : (
