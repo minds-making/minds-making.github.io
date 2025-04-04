@@ -46,6 +46,7 @@ const Home: React.FC<{}> = () => {
             // backgroundColor: "#ffe1a8",
             fontFamily: "'Arvo', serif",
           }}
+          id="information"
           className="text-lg mx-4 md:mx-24 mt-32"
         >
           <b>M</b>inds in the <b>M</b>aking is a new workshop at the interface between
@@ -68,7 +69,7 @@ const Home: React.FC<{}> = () => {
             </span>
           </div>
           For more information, read our workshop proposal{" "}
-          <a href="https://google.com" className="underline text-red-700">
+          <a href="/CogSci_2025__Shaping_Minds_workshop.pdf" className="underline text-red-700">
             here
           </a>
           . <br /> Format In 2025, Minds in the Making will take place as a

@@ -26,6 +26,7 @@ const People: React.FC = () => {
       
       <div>
         <h2 className="text-4xl mb-2">Creativity Seminar</h2>
+        <div><b>Date:</b> TBD. <b>Time:</b> TBD </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {creativitySpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -34,6 +35,7 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">Problem Solving Seminar</h2>
+        <div><b>Date:</b> TBD. <b>Time:</b> TBD </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {problemSolvingSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -42,6 +44,7 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">Communication Seminar</h2>
+        <div><b>Date:</b> TBD. <b>Time:</b> TBD </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {communicationSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -50,15 +53,17 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">Learning Seminar</h2>
+        <div><b>Date:</b> TBD. <b>Time:</b> TBD </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {learningSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
         </div>
       </div>
-
       <div>
         <h2 className="text-4xl mb-2">Workshop @ CogSci 2025</h2>
+        <div><b>Date:</b> Wednesday, July 24th. <b>Time:</b> TBD </div>
+        <div><b>Location:</b> San Francisco, California </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {cogsciSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -93,7 +98,7 @@ const PersonPortrait: React.FC<{ person: Person }> = ({ person }) => {
         id="people-portrait"
         src={person.imageUrl}
         alt={person.name}
-        className="w-32 h-32 rounded-full object-cover cursor-pointer group-hover:outline group-hover:outline-4 group-hover:outline-[#ffcc04] "
+        className="w-32 h-32 rounded-full object-cover cursor-pointer group-hover:outline group-hover:outline-4 group-hover:outline-[#bd6c33] "
       />
       <p className="mt-4 text-lg font-semibold">{person.name}</p>
       <p className="text-md">{person.affiliation}</p>

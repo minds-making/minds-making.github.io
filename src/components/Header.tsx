@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const sections = [
-  { label: "home", uri: "/" },
+  { label: "information", uri: "/information" },
   { label: "schedule", uri: "/schedule" },
   { label: "team", uri: "/team" },
 ];
@@ -75,7 +75,7 @@ const Header = () => {
             return (
               <button
                 onClick={onSectionClick(section)}
-                className={`my-auto align-middle cursor-pointer hover:text-[#ffcc04] md:px-4 md:py-2`}
+                className={`my-auto align-middle cursor-pointer hover:underline md:px-4 md:py-2`}
               >
                 {section.label}
               </button>
