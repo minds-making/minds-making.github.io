@@ -49,7 +49,7 @@ const Header = () => {
         />
       )}
       <div
-        style={{ fontFamily: "Georgia, serif", height: "64px" }}
+        style={{ fontFamily: "'Arvo', serif", height: "64px" }}
         className={
           "bg-[#f0ca89] w-full text-xl flex justify-between transition-all duration-300 " +
           (isHeaderFixed ? "fixed top-0 left-0 z-50 shadow-md" : "")
@@ -63,7 +63,7 @@ const Header = () => {
             /> */}
             <span className="mx-2 text-center my-auto text-2xl ">
               {" "}
-              <b>m</b>inds in the <b>m</b>aking{" "}
+              <b>M</b>inds in the <b>M</b>aking{" "}
             </span>
           </div>
         ) : (

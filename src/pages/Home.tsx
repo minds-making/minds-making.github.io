@@ -8,7 +8,7 @@ const Home: React.FC<{}> = () => {
       <Header />
       <div
         style={{
-          fontFamily: "Georgia, serif",
+          fontFamily: "'Arvo', serif",
         }}
         id="home"
         className="min-h-screen bg-center flex flex-col"
@@ -23,9 +23,9 @@ const Home: React.FC<{}> = () => {
         <div className="flex flex-col-reverse md:flex-row mt-16 z-50">
           <div className="w-72 h-72 "></div>
           <div className="flex flex-col ml-12">
-            <div className="text-5xl"><b>m</b>inds in the <b>m</b>aking</div>
+            <div className="text-5xl"><b className="">M</b>inds in the <b>M</b>aking</div>
             <div className="text-3xl mt-6">
-              A workshop for cognitive science and design thinking.
+              a workshop for cognitive science and design thinking.
             </div>
           </div>
         </div>
@@ -44,11 +44,11 @@ const Home: React.FC<{}> = () => {
         <div
           style={{
             // backgroundColor: "#ffe1a8",
-            fontFamily: "Georgia, serif",
+            fontFamily: "'Arvo', serif",
           }}
           className="text-lg mx-4 md:mx-24 mt-32"
         >
-          Minds in the Making is a new workshop at the interface between
+          <b>M</b>inds in the <b>M</b>aking is a new workshop at the interface between
           cognitive science 🧠 and design thinking 🫖. The human capacity to
           shape our environments and experiences has long inspired research
           across many disciplines, from psychology and neuroscience to
@@ -77,7 +77,7 @@ const Home: React.FC<{}> = () => {
           science, education, design, human-computer interaction. We’re also
           planning for in-person activities (details tbd).
         </div>
-        <div id="team" className="mt-24 mx-4 md:mx-24">
+        <div id="schedule" className="mt-24 mx-4 md:mx-24">
           <People />
         </div>
       </div>

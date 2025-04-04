@@ -19,13 +19,13 @@ const People: React.FC = () => {
   return (
     <div
       style={{
-        fontFamily: "Georgia, serif",
+        fontFamily: "'Arvo', serif",
       }}
       className="mx-auto flex flex-col space-y-6 text-[#740000]"
     >
       
       <div>
-        <h2 className="text-4xl mb-2">session #1: creativity</h2>
+        <h2 className="text-4xl mb-2">Creativity Seminar</h2>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {creativitySpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -33,7 +33,7 @@ const People: React.FC = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-4xl mb-2">session #2: problem solving</h2>
+        <h2 className="text-4xl mb-2">Problem Solving Seminar</h2>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {problemSolvingSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -41,7 +41,7 @@ const People: React.FC = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-4xl mb-2">session #3: communication</h2>
+        <h2 className="text-4xl mb-2">Communication Seminar</h2>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {communicationSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -49,7 +49,7 @@ const People: React.FC = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-4xl mb-2">session #4: learning</h2>
+        <h2 className="text-4xl mb-2">Learning Seminar</h2>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {learningSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -58,7 +58,7 @@ const People: React.FC = () => {
       </div>
 
       <div>
-        <h2 className="text-4xl mb-2">in-person workshop @ cogsci 2025</h2>
+        <h2 className="text-4xl mb-2">Workshop @ CogSci 2025</h2>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {cogsciSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
@@ -67,8 +67,8 @@ const People: React.FC = () => {
       </div>
       
 
-      <div className="">
-        <h2 className="text-4xl mb-2">organizers</h2>
+      <div className="" id="team">
+        <h2 className="text-4xl mb-2">Organizers</h2>
         <div className=" rounded-lg mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {researchTeam.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 200}} />
