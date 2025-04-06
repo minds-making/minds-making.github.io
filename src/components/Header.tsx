@@ -42,12 +42,7 @@ const Header = () => {
 
   return (
     <div>
-      {isHeaderFixed && (
-        <div
-          style={{ height: "64px" }}
-          className="w-full"
-        />
-      )}
+      {isHeaderFixed && <div style={{ height: "64px" }} className="w-full" />}
       <div
         style={{ fontFamily: "'Arvo', serif", height: "64px" }}
         className={
@@ -56,7 +51,15 @@ const Header = () => {
         }
       >
         {isHeaderFixed ? (
-          <div className="my-auto mx-20 hidden md:flex">
+          <div
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+            className="my-auto mx-20 hidden md:flex cursor-pointer"
+          >
             {/* <img
               src="/logo.png"
               className="h-16"
@@ -86,7 +89,5 @@ const Header = () => {
     </div>
   );
 };
-
-
 
 export default Header;

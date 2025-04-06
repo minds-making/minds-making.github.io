@@ -72,7 +72,7 @@ const Home: React.FC<{}> = () => {
           <a href="/CogSci_2025__Shaping_Minds_workshop.pdf" className="underline text-red-700">
             here
           </a>
-          . <br /> Format In 2025, Minds in the Making will take place as a
+          . <br /> <b>M</b>inds in the <b>M</b>aking will take place as a
           series of four virtual online seminars — free & open to the public —
           featuring interactive conversations with experts from cognitive
           science, education, design, human-computer interaction. We’re also
