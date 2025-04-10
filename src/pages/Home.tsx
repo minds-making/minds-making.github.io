@@ -69,7 +69,7 @@ const Home: React.FC<{}> = () => {
             </span>
           </div>
           For more information, read our workshop proposal{" "}
-          <a href="/CogSci_2025__Shaping_Minds_workshop.pdf" className="underline text-red-700">
+          <a href="/CogSci2025_MindsInTheMaking_workshop.pdf" className="underline text-red-700">
             here
           </a>
           . <br /> <b>M</b>inds in the <b>M</b>aking will take place as a
