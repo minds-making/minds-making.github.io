@@ -62,7 +62,7 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">Workshop @ CogSci 2025</h2>
-        <div><b>Date:</b> Wednesday, July 24th. <b>Time:</b> TBD </div>
+        <div><b>Date:</b> Wednesday, July 30th. <b>Time:</b> TBD </div>
         <div><b>Location:</b> San Francisco, California </div>
         <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {cogsciSpeakers.map((person, idx) => (
