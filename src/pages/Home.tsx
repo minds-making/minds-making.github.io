@@ -75,8 +75,9 @@ const Home: React.FC<{}> = () => {
           . <br /> <b>M</b>inds in the <b>M</b>aking will take place as a
           series of four virtual online seminars — free & open to the public —
           featuring interactive conversations with experts from cognitive
-          science, education, design, human-computer interaction. We’re also
-          planning for in-person activities (details tbd).
+          science, education, design, human-computer interaction. We're also
+          planning in-person activities at <a href="https://cognitivesciencesociety.org/cogsci-2025/" target="_blank" rel="noopener noreferrer" className="underline">CogSci 2025</a>, including a poster session highlighting exciting new research! Please submit your abstract here: {" "}
+          <a className="underline font-bold" href="https://forms.gle/SHFChMAARetoVtWu6" target="_blank" rel="noopener noreferrer">https://forms.gle/SHFChMAARetoVtWu6</a>.
         </div>
         <div id="schedule" className="mt-24 mx-4 md:mx-24">
           <People />

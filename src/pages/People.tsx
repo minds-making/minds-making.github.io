@@ -56,9 +56,9 @@ const People: React.FC = () => {
 
       <div>
         <h2 className="text-4xl mb-2">Learning Seminar</h2>
-        <div><b>Date:</b> TBD. <b>Time:</b> TBD </div>
+        <div className="text-lg"><b>Date:</b> TBD. <b>Time:</b> TBD </div>
         <div> <b>Register for Zoom Link</b>: <a className="underline text-[#740000]">TBD</a></div>
-        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="mt-4 rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {learningSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
@@ -66,9 +66,9 @@ const People: React.FC = () => {
       </div>
       <div>
         <h2 className="text-4xl mb-2">Workshop @ CogSci 2025</h2>
-        <div><b>Date:</b> Wednesday, July 30th. <b>Time:</b> 8:30am - 12:00pm PT. </div>
+        <div className="text-lg" ><b>Date:</b> Wednesday, July 30th. <b>Time:</b> 9:00am - 12:00pm PT. </div>
         <div><b>Location:</b> San Francisco, California </div>
-        <div className=" rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="mt-4 rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
           {cogsciSpeakers.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
