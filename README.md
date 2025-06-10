@@ -1,40 +1,50 @@
-# Stanford Nightingale Website
+# Minds in the Making workshop website
 
 Directory structure under `src` directory.
 
 ```bash
 ├── pages
-│   ├── Home.tsx  
+│   ├── Home.tsx
 │   ├── People.tsx
 │   ├── Research.tsx
 │   ├── Events.tsx
 ├── json
-│   ├── advisoryBoard.json  
-│   ├── researchTeam.json
+│   ├── cogsciSpeakers.json
+│   ├── communicationSpeakers.json
+│   ├── creativitySpeakers.json
+│   ├── learningSpeakers.json
+│   ├── problemSolvingSpeakers.json
+│   └── researchTeam.json
 ├── components
 │   ├── Header.tsx
 ├── App.tsx
 ├── main.tsx
 ├── index.css
-├── custom.css
+└ custom.css
+
 ```
+
 # Quick deploy
+
 First, and just one time: make sure you have run `npm install`.
 
 To actually deploy:
-* `npm run deploy`
+
+- `npm run deploy`
 
 To view changes without deployment:
-* `npm run dev`
+
+- `npm run dev`
 
 # Directory structure description
 
 ## **`pages`**
+
 - **Home.tsx**  
   Main landing page, also wraps people / research / events into a one scrollable page.
 
 - **People.tsx**  
-  Part of the main page that shows information about advisory board and research team.
+  Part of the main page that shows information about speakers and organizers.
 
 - **Research.tsx**  
   Part of the main page that shows information about research.
@@ -43,14 +53,15 @@ To view changes without deployment:
   Part of the main page that shows information about events.
 
 ## **`json`**
-- **advisoryBoard.json**  
-  Contains structured data about the advisory board.
+
+- **[event]Speakers.json**  
+  Contains structured data about the speakers for each event.
 
 - **researchTeam.json**  
-  Contains structured data about the research team.
-
+  Contains structured data about the organizing team.
 
 ## **`components`**
+
 - **Header.tsx**  
   Both base + floating website header
 
@@ -65,4 +76,3 @@ To view changes without deployment:
 
 - **custom.css**  
   Additional custom styles overriding base tailwindCSS styles.
-
