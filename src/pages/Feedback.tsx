@@ -1,7 +1,6 @@
 const Feedback: React.FC = () => {
   return (
     <div className="text-[#740000]">
-      {/* <Header /> */}
       <div
         style={{
           fontFamily: "'Arvo', serif",
@@ -14,7 +13,7 @@ const Feedback: React.FC = () => {
           title="Google Form"
           className="w-full h-screen bg-[#f0ca89]"
         >
-          Loading…
+          Loading...
         </iframe>
       </div>
     </div>

@@ -8,7 +8,7 @@ function App() {
       {/* <Toaster /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/feedback" element={<Feedback />} />
+        <Route path="feedback" element={<Feedback />} />
       </Routes>
     </Router>
   );
